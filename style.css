@@ -1,0 +1,127 @@
+#container {
+    width: 100%;
+    max-width: 1200px;
+}
+
+header {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	justify-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    padding-left: 30px;
+}
+
+main{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0px;
+}
+
+#banniere {
+    height: 450px;
+    position: relative;
+}
+
+#banniereImg {
+	position: absolute;
+	width: 100%;
+    height: 100%;
+}
+
+#banniereImg img {
+	object-fit: cover;
+}
+
+#banniereContent {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#banniereContentLogo {
+    width: 200px;
+}
+
+#banniereContent h1 {
+	color: white;
+	font-weight: 400;
+}
+
+#presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#presentationIntro p {
+    color: rgb(87,87,87);
+    font-size: 1.4em;
+    text-align: center;
+}
+
+#presentationIntro, #presentationDetails {
+    margin-top: 30px;
+    max-width: 800px;
+}
+
+#presentationDetails {
+    display: flex;
+    justify-content: space-around;
+}
+
+#presentationDetails article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 20px 0 20px;
+}
+
+#presentationDetails p {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+#presentationDetails h2 {
+    font-size: 1.4em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#temoignage {
+    margin-top: 30px;
+    max-width: 600px;
+}
+
+#temoignage p {
+    color: rgb(87,87,87);
+    text-align: center;
+}
+
+.temoignageTxt {
+    font-size: 1.3em;
+}
+
+.temoignageAuthor {
+    font-weight: 300;
+}
